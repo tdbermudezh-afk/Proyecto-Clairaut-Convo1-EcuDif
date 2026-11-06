@@ -2,3 +2,6 @@ numpy
 sympy
 matplotlib
 customtkinter
+
+# PARA EJECUTAR EL PROGRAMA SIMPLEMENTE INGRESEN EL COMANDO EN LA TERMINAL:
+# pip install -r requirements.txt
