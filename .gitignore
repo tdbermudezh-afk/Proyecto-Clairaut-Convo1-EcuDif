@@ -1,0 +1,11 @@
+# Archivos de Mac
+.DS_Store
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales (si usaron uno)
+venv/
+env/
