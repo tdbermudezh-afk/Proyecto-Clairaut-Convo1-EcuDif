@@ -146,9 +146,9 @@ class ClairautVisualizerApp(ctk.CTk):
         self.grid_columnconfigure(1, weight=1)
         self.grid_rowconfigure(0, weight=1)
         
-        # =====================================================================
+       
         # PANEL LATERAL DE CONTROLES Y ANALISIS
-        # =====================================================================
+   
         self.panel_izquierdo = ctk.CTkScrollableFrame(
             self, 
             corner_radius=0, 
@@ -195,9 +195,8 @@ class ClairautVisualizerApp(ctk.CTk):
         # Separador horizontal sutil
         ctk.CTkFrame(self.panel_izquierdo, height=1, fg_color="#27272a").pack(fill="x", padx=16, pady=4)
         
-        # ---------------------------------------------------------------------
+        
         # SECCION 1: DEFINICION Y ENTRADA DE FUNCION
-        # ---------------------------------------------------------------------
         sec1 = ctk.CTkFrame(self.panel_izquierdo, fg_color="#121214", corner_radius=6, border_width=1, border_color="#27272a")
         sec1.pack(fill="x", padx=14, pady=6)
         
@@ -267,9 +266,8 @@ class ClairautVisualizerApp(ctk.CTk):
         )
         self.btn_ejecutar.pack(fill="x", padx=12, pady=(0, 12))
         
-        # ---------------------------------------------------------------------
+        
         # SECCION 2: PARAMETROS Y CAPAS DE VISUALIZACION
-        # ---------------------------------------------------------------------
         sec2 = ctk.CTkFrame(self.panel_izquierdo, fg_color="#121214", corner_radius=6, border_width=1, border_color="#27272a")
         sec2.pack(fill="x", padx=14, pady=6)
         
